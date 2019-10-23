@@ -1989,9 +1989,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2046239477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050457294c334654fb8ba3d45d588839, type: 3}
+  m_Script: {fileID: 11500000, guid: c7622d8dd3dc0493fbab06dfd36f4278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  availableActions:
+    actions:
+    - {fileID: 2046239487}
 --- !u!95 &2046239489
 Animator:
   serializedVersion: 3

@@ -4,10 +4,11 @@ namespace DigThemGraves
 {
     public abstract class QuestObjectiveAdapter<T> : MonoBehaviour, IQuestObjective where T : IQuestObjective
     {
-        protected T TargetQuestObjective;
+        [SerializeField]
+        protected T targetQuestObjective;
 
-        public virtual bool Finished => TargetQuestObjective.Finished;
+        public virtual bool Finished => targetQuestObjective.Finished;
 
-        public virtual bool Failed => TargetQuestObjective.Failed;
+        public virtual bool Failed => targetQuestObjective.Failed;
     }
 }
