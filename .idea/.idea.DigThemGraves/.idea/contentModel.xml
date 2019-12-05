@@ -218,6 +218,13 @@
             <e p="IPlayer.cs" t="Include" />
             <e p="IPlayerAction.cs" t="Include" />
             <e p="IPlayerActions.cs" t="Include" />
+            <e p="Observer" t="Include">
+              <e p="DictionarySubscribable.cs" t="Include" />
+              <e p="ISubscribable.cs" t="Include" />
+              <e p="ISubscriber.cs" t="Include" />
+              <e p="Subscribable.cs" t="Include" />
+              <e p="Subscriber.cs" t="Include" />
+            </e>
             <e p="PlayerActions.cs" t="Include" />
             <e p="Quests" t="Include">
               <e p="IQuest.cs" t="Include" />
@@ -241,6 +248,7 @@
                 <e p="StandardQuestReward.cs" t="Include" />
               </e>
             </e>
+            <e p="SubscribleGraveyard.cs" t="Include" />
           </e>
           <e p="Grave.cs" t="Include" />
           <e p="Input" t="Include">
